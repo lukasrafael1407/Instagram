@@ -34,7 +34,7 @@ export class Camera extends Component<Props> {
               if (status !== 'READY') return <PendingView />
               return (
                 <View>
-                  <TouchableOpacity onPress={() => this.takePicture(camera)} style={styles.container}>
+                  <TouchableOpacity onPress={() => this.takePicture(camera)} style={styles.capture}>
                     <Text style={styles.titlePhoto}>Fotografar</Text>
                   </TouchableOpacity>
                 </View>

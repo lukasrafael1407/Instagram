@@ -35,11 +35,11 @@ export default class HomeStore {
     const post: Post = {
       author: {
         id: 1,
-        name: "jr_acn",
-        avatar: "https://avatars0.githubusercontent.com/u/6952134?s=50"
+        name: "Lucas Barbosa",
+        avatar: "https://setcesp.org.br/wp-content/uploads/2019/08/brasil.png"
       },
       authorId: 1,
-      description: 'irado',
+      description: 'Foto nova',
       id: this.posts.length + 1,
       image: uriPhoto
     }
