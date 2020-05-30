@@ -1,4 +1,4 @@
-#Sat May 30 10:43:52 BRT 2020
+#Sat May 30 12:03:10 BRT 2020
 base.0=C\:\\Users\\Lucas\\Desktop\\Projetos\\Instagram\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

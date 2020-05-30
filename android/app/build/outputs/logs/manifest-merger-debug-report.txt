@@ -6,6 +6,7 @@ INJECTED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\main\And
 INJECTED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\main\AndroidManifest.xml:1:1-27:12
 MERGED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\main\AndroidManifest.xml:1:1-27:12
 MERGED from [:react-native-community_masked-view] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-camera] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:2:1-18:12
 MERGED from [:react-native-gesture-handler] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
@@ -23,21 +24,35 @@ MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Lucas\.gradle\cac
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\9546e928d2323342b98a2dc9f64aea1d\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\7fa28b55ac96d56c608fbdf1d0a38689\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\2808155805ecb24e6d3c4cc88aee9364\AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\669c0b226ec2ce9b3771c8821127133e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\55ba53b7a991fa43119ef628f260ac93\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\34d6e29ed6ecc2c1ca84928126b999fa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5fa791ea06d5242fe845f490743aba89\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ae8996e33d1b8646a7d43f9173e17224\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\f1c935fc786ed48d76c4e6407e74dd35\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5711727d5cbea92340868c18e1380557\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b7f99beaa296a0c74c50ec0d43ee4dcb\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\3ea76938db3efcc8e31e71ed63169ce6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\cfae89a459a2ee7340a8f9f80fbbbcca\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5bf4bcea1af3a25b8589fd2c72da4690\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\e3ed92fc708f2bdb4617046c3329cd28\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\05fcda763f8c644a8fada5722b1426e9\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ba79ae7954480cd87b429d27617e4797\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\fc5abc57484da951be231758f9787131\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\7eb87b17e5747793879a24a9d9928737\AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\bec065d08e6323415862fbb6b7bbfb22\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ebb49004148246393e44daecb64b1bcb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\7ccc0ae922120a2fcf92a34c0c52c98f\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5efe02c01a421393df892fdc02ddaaf1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\2fa6add8442069e5edd7c177a50f10f5\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\fdd01f6c5109f7772d20067e48cdc9ee\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\d29f75bcc6ffeacf2ddf8e6f291d6cdd\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b24665b2477a2fbb1686002c67139cfb\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\a5c82463c2185bfedb7d02862dd6100e\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\7bc111284537318e2598c6db7bca8a08\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\9e20964f164e20adae2b46f2cf44dabc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\669c0b226ec2ce9b3771c8821127133e\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\60f5e13bf83c315bfc832b172d1858eb\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\0d0e7cf74400aa7d0e964c614e21213f\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\c92d34e15e57399ad9e1267ed89e6281\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ba33fffdc7929ee3dfcbc6597db8ceef\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\7cd3c527282931afaf0e03a3e54998c9\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\6594ff22c9a2f72636397e07accb59d6\AndroidManifest.xml:17:1-27:12
@@ -45,11 +60,15 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\L
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\0fe821e9e9095115c5a1300604f764cd\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\de0f1c72d7bdab171fc3dbe2c77f33d8\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\53847468745488d3caa59e28927b1073\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\e556f400963e8635272dc51606ee9baf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\9c2e29d1768387858ce3b96a10d5d0c8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\54e61d59a562b2efd1dd36b4671afe3f\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\db35229501d0547ba02de747e8e60794\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\c1dafa8a9a89d69f28e8ae93852a7464\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5d266892bc8e5401e3c10c046647c2fc\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\23255a144b6e5dadb9e19ff7024d65dd\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b18e0919d31ade6229bf9637ca40caae\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\bec065d08e6323415862fbb6b7bbfb22\AndroidManifest.xml:2:1-9:12
 INJECTED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\debug\AndroidManifest.xml:2:1-8:12
 INJECTED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\debug\AndroidManifest.xml:2:1-8:12
 INJECTED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\debug\AndroidManifest.xml:2:1-8:12
@@ -76,6 +95,8 @@ ADDED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\main\Androi
 		ADDED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.CAMERA
 ADDED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\main\AndroidManifest.xml:5:5-65
+MERGED from [:react-native-camera] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:9:5-65
+MERGED from [:react-native-camera] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:9:5-65
 	android:name
 		ADDED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\main\AndroidManifest.xml:5:22-62
 application
@@ -88,6 +109,20 @@ MERGED from [com.google.android.material:material:1.1.0] C:\Users\Lucas\.gradle\
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\3d0ee5173ac58eec269f630525efeafc\AndroidManifest.xml:22:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\2808155805ecb24e6d3c4cc88aee9364\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\2808155805ecb24e6d3c4cc88aee9364\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\55ba53b7a991fa43119ef628f260ac93\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\55ba53b7a991fa43119ef628f260ac93\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5fa791ea06d5242fe845f490743aba89\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5fa791ea06d5242fe845f490743aba89\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ae8996e33d1b8646a7d43f9173e17224\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ae8996e33d1b8646a7d43f9173e17224\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5711727d5cbea92340868c18e1380557\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5711727d5cbea92340868c18e1380557\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b7f99beaa296a0c74c50ec0d43ee4dcb\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b7f99beaa296a0c74c50ec0d43ee4dcb\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\3ea76938db3efcc8e31e71ed63169ce6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\3ea76938db3efcc8e31e71ed63169ce6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\cfae89a459a2ee7340a8f9f80fbbbcca\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\cfae89a459a2ee7340a8f9f80fbbbcca\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ba33fffdc7929ee3dfcbc6597db8ceef\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ba33fffdc7929ee3dfcbc6597db8ceef\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\6594ff22c9a2f72636397e07accb59d6\AndroidManifest.xml:24:5-25:19
@@ -148,6 +183,8 @@ INJECTED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\main\And
 INJECTED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\main\AndroidManifest.xml
 MERGED from [:react-native-community_masked-view] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
@@ -182,18 +219,40 @@ MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Lucas\.gradl
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\7fa28b55ac96d56c608fbdf1d0a38689\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\2808155805ecb24e6d3c4cc88aee9364\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\2808155805ecb24e6d3c4cc88aee9364\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\669c0b226ec2ce9b3771c8821127133e\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\669c0b226ec2ce9b3771c8821127133e\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\55ba53b7a991fa43119ef628f260ac93\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\55ba53b7a991fa43119ef628f260ac93\AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\34d6e29ed6ecc2c1ca84928126b999fa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\34d6e29ed6ecc2c1ca84928126b999fa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5fa791ea06d5242fe845f490743aba89\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5fa791ea06d5242fe845f490743aba89\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ae8996e33d1b8646a7d43f9173e17224\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ae8996e33d1b8646a7d43f9173e17224\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\f1c935fc786ed48d76c4e6407e74dd35\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\f1c935fc786ed48d76c4e6407e74dd35\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5711727d5cbea92340868c18e1380557\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5711727d5cbea92340868c18e1380557\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b7f99beaa296a0c74c50ec0d43ee4dcb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b7f99beaa296a0c74c50ec0d43ee4dcb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\3ea76938db3efcc8e31e71ed63169ce6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\3ea76938db3efcc8e31e71ed63169ce6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\cfae89a459a2ee7340a8f9f80fbbbcca\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\cfae89a459a2ee7340a8f9f80fbbbcca\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5bf4bcea1af3a25b8589fd2c72da4690\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5bf4bcea1af3a25b8589fd2c72da4690\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\e3ed92fc708f2bdb4617046c3329cd28\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\e3ed92fc708f2bdb4617046c3329cd28\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\05fcda763f8c644a8fada5722b1426e9\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\05fcda763f8c644a8fada5722b1426e9\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ba79ae7954480cd87b429d27617e4797\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ba79ae7954480cd87b429d27617e4797\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\fc5abc57484da951be231758f9787131\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\fc5abc57484da951be231758f9787131\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\7eb87b17e5747793879a24a9d9928737\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\7eb87b17e5747793879a24a9d9928737\AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\bec065d08e6323415862fbb6b7bbfb22\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\bec065d08e6323415862fbb6b7bbfb22\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ebb49004148246393e44daecb64b1bcb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ebb49004148246393e44daecb64b1bcb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\7ccc0ae922120a2fcf92a34c0c52c98f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\7ccc0ae922120a2fcf92a34c0c52c98f\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5efe02c01a421393df892fdc02ddaaf1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\5efe02c01a421393df892fdc02ddaaf1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\2fa6add8442069e5edd7c177a50f10f5\AndroidManifest.xml:20:5-44
@@ -204,14 +263,20 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\Lucas\.gradle\caches\transfo
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\d29f75bcc6ffeacf2ddf8e6f291d6cdd\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b24665b2477a2fbb1686002c67139cfb\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b24665b2477a2fbb1686002c67139cfb\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\a5c82463c2185bfedb7d02862dd6100e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\a5c82463c2185bfedb7d02862dd6100e\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\7bc111284537318e2598c6db7bca8a08\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\7bc111284537318e2598c6db7bca8a08\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\9e20964f164e20adae2b46f2cf44dabc\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\9e20964f164e20adae2b46f2cf44dabc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\669c0b226ec2ce9b3771c8821127133e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\669c0b226ec2ce9b3771c8821127133e\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\60f5e13bf83c315bfc832b172d1858eb\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\60f5e13bf83c315bfc832b172d1858eb\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\0d0e7cf74400aa7d0e964c614e21213f\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\0d0e7cf74400aa7d0e964c614e21213f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\c92d34e15e57399ad9e1267ed89e6281\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\c92d34e15e57399ad9e1267ed89e6281\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ba33fffdc7929ee3dfcbc6597db8ceef\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\ba33fffdc7929ee3dfcbc6597db8ceef\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\7cd3c527282931afaf0e03a3e54998c9\AndroidManifest.xml:20:5-44
@@ -226,6 +291,12 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lucas\.gradle\ca
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\de0f1c72d7bdab171fc3dbe2c77f33d8\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\53847468745488d3caa59e28927b1073\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\53847468745488d3caa59e28927b1073\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\e556f400963e8635272dc51606ee9baf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\e556f400963e8635272dc51606ee9baf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\9c2e29d1768387858ce3b96a10d5d0c8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\9c2e29d1768387858ce3b96a10d5d0c8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\54e61d59a562b2efd1dd36b4671afe3f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\54e61d59a562b2efd1dd36b4671afe3f\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\db35229501d0547ba02de747e8e60794\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\db35229501d0547ba02de747e8e60794\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\c1dafa8a9a89d69f28e8ae93852a7464\AndroidManifest.xml:20:5-22:41
@@ -236,6 +307,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Lucas\.g
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\23255a144b6e5dadb9e19ff7024d65dd\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b18e0919d31ade6229bf9637ca40caae\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b18e0919d31ade6229bf9637ca40caae\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\bec065d08e6323415862fbb6b7bbfb22\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\bec065d08e6323415862fbb6b7bbfb22\AndroidManifest.xml:5:5-7:41
 INJECTED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\debug\AndroidManifest.xml
 INJECTED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
@@ -248,3 +321,29 @@ uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\debug\AndroidManifest.xml:5:5-77
 	android:name
 		ADDED from C:\Users\Lucas\Desktop\Projetos\Instagram\android\app\src\debug\AndroidManifest.xml:5:22-75
+uses-feature#android.hardware.camera
+ADDED from [:react-native-camera] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [:react-native-camera] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [:react-native-camera] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:12:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:react-native-camera] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:react-native-camera] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:react-native-camera] C:\Users\Lucas\Desktop\Projetos\Instagram\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:15:9-57
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b7f99beaa296a0c74c50ec0d43ee4dcb\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b7f99beaa296a0c74c50ec0d43ee4dcb\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b7f99beaa296a0c74c50ec0d43ee4dcb\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\b7f99beaa296a0c74c50ec0d43ee4dcb\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\cfae89a459a2ee7340a8f9f80fbbbcca\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\cfae89a459a2ee7340a8f9f80fbbbcca\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Lucas\.gradle\caches\transforms-2\files-2.1\cfae89a459a2ee7340a8f9f80fbbbcca\AndroidManifest.xml:24:13-58
