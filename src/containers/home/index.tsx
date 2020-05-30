@@ -1,5 +1,5 @@
 import { Avatar, Card, Divider, Layout, Text } from '@ui-kitten/components';
-import { Image, ScrollView, View } from 'react-native';
+import { Image, ScrollView, StyleSheet, View } from 'react-native';
 import React, { Component, } from 'react';
 import { inject, observer } from 'mobx-react';
 
@@ -42,5 +42,29 @@ export default class Home extends Component<Props> {
             </Card>})}
         </ScrollView>
       </Layout>);
-  }
+  }  
 }
+const styles = StyleSheet.create({
+  card: { padding: 1, margin: 4, backgroundColor: 'black' },
+  header: {
+    padding: 3,
+    alignItems: 'center',
+    flexDirection: 'row'
+  },
+  scrollView: {
+    backgroundColor: 'black',
+    color: 'white',
+    marginHorizontal: 20,
+  },
+  avatar: { marginRight: 5 },
+  picture: { width: 'auto', minHeight: 200, maxHeight: 500 },
+  footer: {
+    margin: 4,
+    padding: 4,
+    alignItems: 'center',
+    flexDirection: 'row'
+  },
+  title: {
+    fontSize: 15,
+  },
+});
