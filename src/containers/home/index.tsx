@@ -27,17 +27,18 @@ export default class Home extends Component<Props> {
       <Layout style={{ flex: 1, backgroundColor: 'black' }}>
         <ScrollView>
             {posts.map((post, index) => {
-                <Card key={index}>
-                  <View>
-                      <Avatar
-                          size={'small'}
-                          source={{ uri: post.author.avatar }}/>
-                      <Text>{post.author.name}</Text>
+                <Card key={index} style={styles.card}>
+                  <View style={styles.header}>
+                  <Avatar
+                      size={'small'}
+                      source={{ uri: post.author.avatar }}
+                      style={styles.avatar} />
+                      <Text style={styles.title}>{post.author.name}</Text>
                   </View>                  
-                  <Image source={{ uri: post.image }} />
+                  <Image style={styles.picture} source={{ uri: post.image }} />
                   <Divider />
-                  <View>
-                    <Text>{post.description}</Text>
+                  <View style={styles.footer}>
+                    <Text style={styles.title}>{post.description}</Text>
                   </View>
             </Card>})}
         </ScrollView>
