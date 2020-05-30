@@ -24,8 +24,9 @@ export default class HomeStore {
     try {
       const { data: posts } = await axios.get<[Post]>('http://localhost:3000/feed?_expand=author');
       this.posts = posts;
-      console.log('succes');
+      console.log('success');
     } catch (error) {
+      console.log('ERRO');
       console.error(error);
       this.posts = [];
     }
@@ -44,7 +45,7 @@ export default class HomeStore {
       image: uriPhoto
     }
 
-    this.posts.push(post);
+    this.posts.unshift(post);
   }
 
   @action toogleStatus = (status: boolean) => {

@@ -2,49 +2,49 @@
   "feed": [
     {
       "id": 1,
-      "image": "https://i.pinimg.com/originals/26/ea/fc/26eafc0b14488fea03fa8fa9751203ff.jpg",
-      "description": "Are you working for your dreams?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1024px-Flag_of_France.svg.png",
+      "description": "França",
       "authorId": 1
     },
     {
       "id": 2,
-      "image": "https://i.pinimg.com/originals/26/ea/fc/26eafc0b14488fea03fa8fa9751203ff.jpg",
-      "description": "Are you working for your dreams?",
+      "image": "https://static.todamateria.com.br/upload/ba/nd/bandeira_argentina_bb.jpg",
+      "description": "Argentina",
       "authorId": 2
     },
     {
       "id": 3,
-      "image": "https://i.pinimg.com/originals/26/ea/fc/26eafc0b14488fea03fa8fa9751203ff.jpg",
-      "description": "Are you working for your dreams?",
+      "image": "https://static.todamateria.com.br/upload/ba/nd/bandeiradochile-cke.jpg",
+      "description": "Chile",
       "authorId": 3
     },
     {
       "id": 4,
-      "image": "https://i.pinimg.com/originals/26/ea/fc/26eafc0b14488fea03fa8fa9751203ff.jpg",
-      "description": "Are you working for your dreams?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/275px-Flag_of_Brazil.svg.png",
+      "description": "Brasil",
       "authorId": 4
     }
   ],
   "authors": [
     {
       "id": 1,
-      "name": "jr_acn",
-      "avatar": "https://avatars0.githubusercontent.com/u/6952134?s=50"
+      "name": "Zidane",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/8/82/Zinedine_Zidane_by_Tasnim_01.jpg"
     },
     {
       "id": 2,
-      "name": "jr_acn",
-      "avatar": "https://avatars0.githubusercontent.com/u/6952134?s=50"
+      "name": "Maradona",
+      "avatar": "https://citacoes.in/media/authors/diego-maradona.jpg"
     },
     {
       "id": 3,
-      "name": "jr_acn",
-      "avatar": "https://avatars0.githubusercontent.com/u/6952134?s=50"
+      "name": "Vidal",
+      "avatar": "https://www.lance.com.br/files/article_main/uploads/2018/11/27/5bfd9999865a9.jpeg"
     },
     {
       "id": 4,
-      "name": "jr_acn",
-      "avatar": "https://avatars0.githubusercontent.com/u/6952134?s=50"
+      "name": "Pelé",
+      "avatar": "https://www.tribunapr.com.br/wp-content/uploads/sites/1/2019/03/pel%C3%A9.jpg"
     }
   ]
 }

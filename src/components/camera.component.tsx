@@ -2,8 +2,8 @@ import { RNCamera, TakePictureOptions } from 'react-native-camera';
 import React, { Component } from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-interface Props {
-  onTakeCamera: (uri: string) => void
+interface Props {  
+  onTakeCamera: (uri?: string) => void
   status: boolean
 }
 
@@ -37,12 +37,20 @@ export class Camera extends Component<Props> {
                   <TouchableOpacity onPress={() => this.takePicture(camera)} style={styles.capture}>
                     <Text style={styles.titlePhoto}>Fotografar</Text>
                   </TouchableOpacity>
+                  <TouchableOpacity onPress={() => this.cancel()} style={styles.capture}>
+                    <Text style={styles.titlePhoto}>Cancelar</Text>
+                  </TouchableOpacity>
                 </View>
               )
             }}
           </RNCamera>
         </View>}
     </View>)
+  }
+
+  cancel = () => {
+    const { onTakeCamera } = this.props;
+    onTakeCamera();
   }
 
   takePicture = async (camera: RNCamera) => {
